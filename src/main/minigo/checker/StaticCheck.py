@@ -53,7 +53,13 @@ class StaticChecker(BaseVisitor,Utils):
             if not type(ast.varType) is type(initType):
                 raise TypeMismatch(ast)
         return Symbol(ast.varName, ast.varType,None)
+    
+    def visitConstDecl(self, ast, c):
+        res = self.lookup(ast.conName, c, lambda x: x.name)
+        if not res is None:
+            raise Redeclared(Constant(), ast.conName)
         
+        return Symbol(ast.conName, ast.conType, None)
 
     def visitFuncDecl(self,ast, c):
         res = self.lookup(ast.name, c, lambda x: x.name)
@@ -67,8 +73,20 @@ class StaticChecker(BaseVisitor,Utils):
     def visitFloatLiteral(self,ast, c):
         return FloatType()
     
+    def visitStringLiteral(self, ast, c):
+        return StringType()
+    
+    def visitBooleanLiteral(self, ast, c):
+        return BoolType()
+    
     def visitId(self,ast,c):
         res = self.lookup(ast.name, c, lambda x: x.name)
         if res is None:
             raise Undeclared(Identifier(), ast.name)
         return res.mtype
+    
+    def visitContinue(self, ast, c):
+        pass
+    
+    def visitBreak(self, ast, c):
+        pass

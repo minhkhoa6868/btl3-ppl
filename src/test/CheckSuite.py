@@ -7,6 +7,14 @@ class CheckSuite(unittest.TestCase):
         input = """var a int; var b int; var a int; """
         expect = "Redeclared Variable: a\n"
         self.assertTrue(TestChecker.test(input,expect,400))
+        
+    def test_redeclared_function(self):
+        input = """
+            var a int; 
+            const a = 1;
+        """
+        expect = "Redeclared Constant: a\n"
+        self.assertTrue(TestChecker.test(input, expect, 403))
 
     def test_type_mismatch(self):
         input = """var a int = 1.2;"""
@@ -17,4 +25,6 @@ class CheckSuite(unittest.TestCase):
         input = Program([VarDecl("a",IntType(),Id("b"))])
         expect = "Undeclared Identifier: b\n"
         self.assertTrue(TestChecker.test(input,expect,402))
+        
+    
   
