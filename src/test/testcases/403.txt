@@ -1,4 +1,1 @@
-
-            var a int; 
-            const a = 1;
-        
+Program([VarDecl(a,IntType),ConstDecl(a,IntLiteral(1))])

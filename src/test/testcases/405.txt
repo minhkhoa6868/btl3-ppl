@@ -1,0 +1,1 @@
+Program([VarDecl(a,FloatLiteral(2.1)),FuncDecl(main,[],VoidType,Block([VarDecl(c,FieldAccess(Id(a),b))]))])

@@ -1,1 +1,1 @@
-var a int; var b int; var a int; 
+Program([VarDecl(a,IntType),VarDecl(b,IntType),VarDecl(a,IntType)])
