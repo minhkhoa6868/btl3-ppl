@@ -1,0 +1,1 @@
+Program([InterfaceType(Shape,[Prototype(calculate,[],VoidType),Prototype(calculate,[('a', <src.main.minigo.utils.AST.IntType object at 0x103816600>)],VoidType)])])

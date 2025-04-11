@@ -1,0 +1,1 @@
+Program([StructType(A,[(h,IntType)],[]),VarDecl(a,Id(A),StructLiteral(A,[(h,IntLiteral(1))]))])

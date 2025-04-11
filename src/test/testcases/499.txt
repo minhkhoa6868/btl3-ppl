@@ -1,0 +1,1 @@
+Program([StructType(A,[],[]),StructType(B,[],[]),MethodDecl(a,Id(A),FuncDecl(foo,[],VoidType,Block([Return()]))),MethodDecl(b,Id(B),FuncDecl(foo,[],VoidType,Block([Return()])))])

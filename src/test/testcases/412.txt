@@ -1,0 +1,1 @@
+Program([StructType(S1,[(v,IntType),(x,Id(S1))],[]),VarDecl(b,Id(S1)),VarDecl(c,FieldAccess(FieldAccess(Id(b),x),v)),VarDecl(d,FieldAccess(Id(c),x))])

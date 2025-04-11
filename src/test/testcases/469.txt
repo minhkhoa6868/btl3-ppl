@@ -1,0 +1,1 @@
+Program([MethodDecl(v,Id(HOW),FuncDecl(putIntLn,[],VoidType,Block([Return()]))),MethodDecl(v,Id(HOW),FuncDecl(getInt,[],VoidType,Block([Return()]))),MethodDecl(v,Id(HOW),FuncDecl(getInt,[],VoidType,Block([Return()]))),StructType(HOW,[(Votien,IntType)],[])])

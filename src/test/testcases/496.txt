@@ -1,0 +1,1 @@
+Program([StructType(A,[(x,IntType)],[]),MethodDecl(a,Id(A),FuncDecl(foo,[],IntType,Block([Return(IntLiteral(1))]))),MethodDecl(a,Id(A),FuncDecl(bar,[],BoolType,Block([Return(BooleanLiteral(false))]))),VarDecl(x,Id(A)),VarDecl(y,BinaryOp(MethodCall(Id(x),foo,[]),+,MethodCall(Id(x),bar,[])))])

@@ -1,0 +1,1 @@
+Program([FuncDecl(loop,[],VoidType,Block([VarDecl(array,ArrayType(IntType,[IntLiteral(2),IntLiteral(3)])),VarDecl(index,IntType),VarDecl(value,ArrayType(FloatType,[IntLiteral(3)])),ForEach(Id(index),Id(value),Id(array),Block([Return()]))]))])

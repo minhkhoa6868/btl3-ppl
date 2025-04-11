@@ -1,0 +1,1 @@
+Program([StructType(A,[(h,IntType)],[]),MethodDecl(a,Id(A),FuncDecl(print,[],VoidType,Block([Return()]))),FuncDecl(main,[],VoidType,Block([VarDecl(b,IntType),MethodCall(Id(b),print,[])]))])

@@ -1,0 +1,1 @@
+Program([FuncDecl(main,[],VoidType,Block([VarDecl(x,IntLiteral(1)),VarDecl(y,IntLiteral(2)),VarDecl(z,BinaryOp(Id(x),+,Id(y))),VarDecl(t,BinaryOp(BinaryOp(Id(x),+,Id(y)),+,Id(z))),VarDecl(u,BinaryOp(BinaryOp(BinaryOp(Id(x),+,Id(y)),+,Id(z)),+,Id(t)))]))])

@@ -1,0 +1,1 @@
+Program([FuncDecl(printA,[],VoidType,Block([Return()])),FuncDecl(main,[],VoidType,Block([VarDecl(a,FuncCall(printA,[]))]))])

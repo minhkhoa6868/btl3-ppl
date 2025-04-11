@@ -1,0 +1,1 @@
+Program([FuncDecl(test,[],IntType,Block([Return(BooleanLiteral(true))]))])

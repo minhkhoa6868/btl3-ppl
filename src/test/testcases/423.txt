@@ -1,0 +1,1 @@
+Program([StructType(BOOM,[(time,IntType)],[]),MethodDecl(v,Id(BOOM),FuncDecl(getInt,[],VoidType,Block([ConstDecl(c,FieldAccess(Id(v),time)),VarDecl(d,FieldAccess(Id(v),size))])))])

@@ -1,0 +1,1 @@
+Program([StructType(Node,[(next,Id(Node))],[])])

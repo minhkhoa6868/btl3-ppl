@@ -1,0 +1,1 @@
+Program([StructType(Person,[(name,StringType),(age,IntType)],[]),MethodDecl(p,Id(Person),FuncDecl(Add,[ParDecl(p,IntType)],VoidType,Block([Assign(FieldAccess(Id(p),age),BinaryOp(FieldAccess(Id(p),age),+,Id(p)))])))])

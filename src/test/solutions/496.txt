@@ -1,0 +1,1 @@
+Type Mismatch: BinaryOp(MethodCall(Id(x),foo,[]),+,MethodCall(Id(x),bar,[]))

@@ -1,0 +1,1 @@
+Program([FuncDecl(lenString,[ParDecl(string,StringType)],IntType,Block([Return(IntLiteral(5))])),VarDecl(x,FuncCall(lenString,[StringLiteral(Hello)])),VarDecl(y,BinaryOp(Id(x),&&,FuncCall(lenString,[StringLiteral(haha)])))])

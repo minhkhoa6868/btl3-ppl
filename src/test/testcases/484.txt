@@ -1,0 +1,1 @@
+Program([InterfaceType(I,[Prototype(foo,[],VoidType)]),StructType(S,[(b,IntType)],[]),VarDecl(a,Id(I),Id(S))])

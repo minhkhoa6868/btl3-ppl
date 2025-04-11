@@ -1,0 +1,1 @@
+Program([FuncDecl(Haha,[ParDecl(a,IntType),ParDecl(a,IntType)],VoidType,Block([]))])
